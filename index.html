@@ -32,16 +32,49 @@
   }
   p.subtitle {
     font-size: 1.25rem;
-    color: #7b5e7b;
+    color: #b56576;
     margin-bottom: 40px;
     font-style: italic;
   }
-  img {
+  img.hero {
     width: 100%;
     max-height: 280px;
     object-fit: cover;
     border-radius: 12px;
     margin-bottom: 30px;
+  }
+  h2 {
+    color: #2a473d;
+    margin: 30px 0 15px;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  ul li {
+    background: #d4f4dd;
+    color: #355c7d;
+    font-weight: 600;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    box-shadow: 1px 1px 4px rgba(181,101,118,0.4);
+  }
+  .button {
+    display: inline-block;
+    background: #b56576;
+    color: white;
+    padding: 14px 32px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(181,101,118,0.5);
+    transition: background-color 0.3s ease;
+  }
+  .button:hover {
+    background: #9c4d61;
   }
   .company {
     font-weight: bold;
@@ -67,7 +100,19 @@
   <div class="container" role="main">
     <h1>The Muslimah Morning Method</h1>
     <p class="subtitle">Begin your day with worship and wellness</p>
-    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Peaceful morning nature" />
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Peaceful morning nature" class="hero" />
+    
+    <h2>What You'll Gain</h2>
+    <ul>
+      <li>Harness the power of dua, dhikr & salah to ground your day</li>
+      <li>Develop mindful morning habits rooted in faith & wellness</li>
+      <li>Balance spiritual growth with daily responsibilities</li>
+      <li>Find calm, clarity, and focus to face your day</li>
+      <li>Connect deeply with your identity as a servant of Allah SWT</li>
+    </ul>
+
+    <a href="#" class="button" aria-label="Join The Muslimah Morning Method Program">Join the Waitlist</a>
+
     <div class="company">It starts with Bismillah</div>
     <div class="coming-soon">Coming soon</div>
     <footer>© 2025 It starts with Bismillah</footer>
